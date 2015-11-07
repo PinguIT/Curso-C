@@ -3,7 +3,6 @@ int main()
 {
     int x;
     int y;
-    int z;
     
     y = 1;
     
