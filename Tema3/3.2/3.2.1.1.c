@@ -12,8 +12,8 @@ int main()
         printf("Wrong password. Please try again.\n");
         printf("Input password: \n");
         scanf("%d", &numero);
-        
     }
+    if (numero==5045)  printf("Correct password.\n");
     
     return 0;
     
