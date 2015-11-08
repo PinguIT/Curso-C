@@ -1,9 +1,9 @@
 git init
 git add .
-git commit -m "pull"
+git commit -m "..."
 git pull
 
 git init
 git add .
-git commit -m "push"
+git commit -m "p..."
 git push origin master
