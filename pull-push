@@ -1,0 +1,9 @@
+git init
+git add .
+git commit -m "pull"
+git pull
+
+git init
+git add .
+git commit -m "push"
+git push origin master
