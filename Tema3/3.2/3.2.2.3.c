@@ -1,17 +1,18 @@
 #include <stdio.h>
-
 int main()
 {
     int x;
-    int y;
     
-    y = 1;
+    x = 26;
     
-    while (x!=10)
+    printf("%d\n", x);
+    do
     {
-        x = y++;
+        x = x - 2;
         printf("%d\n", x);
+        
     }
+    while (x!=10);
     
     return 0;
     
