@@ -6,18 +6,19 @@ int main()
     int numero = 67;
     int numero2;
     int intentos;
-    
-    for (intentos=0; intentos<=6; intentos++)
+
       do
       {
          printf("Adivina un numero entre 1 y 100\n");
          scanf("%d", &numero2);
          if (numero2<numero)  printf("Mas alto!\n");
          if (numero2>numero)  printf("Mas bajo!\n");
-         if (numero==numero2)  printf("Acertado!\n");
          intentos++;
       }
-      while ((numero!=67) || (intentos<6));
-    
+      while ((numero2!=67) && (intentos<6));
+        {
+            if (numero2==67)  printf("Acertado!");
+        }
+      
     return 0;
 }
