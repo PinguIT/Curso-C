@@ -4,10 +4,10 @@
 int main()
 {
     int numero;
+    int numero2;
     
     printf("Input number: \n");
     scanf("%d", &numero);
-    
     
     
     

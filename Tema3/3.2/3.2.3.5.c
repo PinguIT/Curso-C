@@ -3,8 +3,9 @@
 int main()
 {
     int numero;
+    int numero2;
     
-    
+
        
     return 0;
 }
