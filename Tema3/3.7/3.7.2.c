@@ -4,12 +4,12 @@
 int main()
 {
     int numero;
-    int numero2;
+    int numero2=1;
     
     printf("Input number: \n");
     scanf("%d", &numero);
     
-    
+   
     
     return 0;
 }

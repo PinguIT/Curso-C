@@ -8,11 +8,13 @@ int main()
     printf("Introduce un numero entero positivo: \n");
     scanf("%d", &numero);
     
-    while(numero/10>0)
+    do
     {
         numero = numero / 10;
         numero2++;
     }
+    while(numero/10>0);
+    
     printf("Tiene %d dígitos\n", numero2);
     
     return 0;
