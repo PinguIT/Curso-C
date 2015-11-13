@@ -5,7 +5,7 @@ int main()
 {
     int numero = 67;
     int numero2;
-    int intentos;
+    int intentos = 0;
 
       do
       {

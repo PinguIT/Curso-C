@@ -3,16 +3,17 @@
 int main()
 {
     int numero;
+    int numero2 = 1;
     
     printf("Introduce un numero entero positivo: \n");
     scanf("%d", &numero);
     
-    while(  )
+    while(numero/10>0)
     {
-        
-      
-        
+        numero = numero / 10;
+        numero2++;
     }
+    printf("Tiene %d dígitos\n", numero2);
     
     return 0;
 }
