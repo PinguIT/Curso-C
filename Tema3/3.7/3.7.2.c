@@ -9,7 +9,11 @@ int main()
     printf("Input number: \n");
     scanf("%d", &numero);
     
-   
+    do
+    {
+        
+    }
+    while (); 
     
     return 0;
 }
