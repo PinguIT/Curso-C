@@ -7,19 +7,19 @@ int main()
     int numero2 = 2;
     
     
-    printf("Input number: \n");
+    printf("Introduce numero para factorizar: \n");
     scanf("%d", &numero);
     
-    while (numero!=0)
+    do
     {
         if (numero%numero2==0)
         {
             numero=numero/numero2;
-            printf("%d", numero2);
+            printf("%d  ", numero2);
         }
-        
-        numero2++;
+        else  numero2++;
     }
+    while (numero>1);
     
     return 0;
 }
