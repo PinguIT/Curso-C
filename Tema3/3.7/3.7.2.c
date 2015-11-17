@@ -12,9 +12,11 @@ int main()
     
     while (numero!=0)
     {
-        if (numero%numero2==0)   numero=numero/numero2;
-        
-        printf("%d", numero2);
+        if (numero%numero2==0)
+        {
+            numero=numero/numero2;
+            printf("%d", numero2);
+        }
         
         numero2++;
     }
