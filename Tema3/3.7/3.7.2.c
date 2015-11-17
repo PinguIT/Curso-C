@@ -5,7 +5,7 @@ int main()
 {
     int numero;
     int numero2 = 2;
-    int numero3;
+    
     
     printf("Input number: \n");
     scanf("%d", &numero);
