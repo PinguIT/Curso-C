@@ -4,16 +4,20 @@
 int main()
 {
     int numero;
-    int numero2=1;
+    int numero2 = 1;
+    int numero3;
     
     printf("Input number: \n");
     scanf("%d", &numero);
     
-    do
+    while (numero!=0)
     {
+        if (numero%numero2==0)   numero=numero/numero2;
         
+        printf("%d", numero2);
+        
+        numero2++;
     }
-    while (); 
     
     return 0;
 }
