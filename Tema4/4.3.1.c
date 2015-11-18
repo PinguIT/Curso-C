@@ -3,10 +3,9 @@
 #include <stdio.h>
 int main()
 {
-    char letra='A';
-    char letra2='Z';
+    char letra;
     
-    for (letra=='A'; letra<=letra2; letra++)
+    for (letra=70; letra<='Z'; letra++)
     {
        putchar(letra);
     }
