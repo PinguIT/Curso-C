@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int numero[3];
+    int numero[4];
     int suma;
     int ma;
     
