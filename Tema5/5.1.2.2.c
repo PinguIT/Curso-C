@@ -3,13 +3,21 @@
 #include <stdio.h>
 int main()
 {
-    int n1[12] =
+    int number[12] =
        {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    int n2;
-    
+    int month;
+    int day;
+    int i;
     
     printf("Pick a month: \n");
-    scanf("%d", &n2);
+    scanf("%d", &month);
+    printf("Pick a day of the month: \n");
+    scanf("%d", &day);
+    
+ 
+    for (i =   ;    ;    );
+
+    printf("Day of the year: %d", i);
     
     
     return 0;
