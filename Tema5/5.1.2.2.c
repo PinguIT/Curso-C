@@ -6,12 +6,11 @@ int main()
     int n1[12] =
        {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int n2;
-    int n3[365]
+    
     
     printf("Pick a month: \n");
     scanf("%d", &n2);
-    printf("Pick a day of the year: \n");
-    scanf("%d", &n3)
-    if ((n1==0) && 
     
+    
+    return 0;
 }

@@ -14,9 +14,9 @@ int main()
     {
         if (numero%numero2==0)
         {
-         
+            
             numero=numero/numero2;
-            printf("%d  ", numero2);
+            printf("%d ", numero2);
         }
         else  numero2++;
     }
