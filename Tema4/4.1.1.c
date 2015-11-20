@@ -3,19 +3,19 @@
 #include <stdio.h>
 int main()
 {
-    int numero;
+    int number;
     
     do
     {
      printf("Input number: \n");
-     scanf("%d", &numero);
-     if (numero>0)
+     scanf("%d", &number);
+     if (number>0)
      {
-         printf("%x\n", numero);
-         printf("%o\n", numero);
+         printf("%x\n", number);
+         printf("%o\n", number);
      }
     }
-    while (numero!=0);
+    while (number!=0);
     
     return 0;
 }

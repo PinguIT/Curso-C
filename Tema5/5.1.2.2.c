@@ -15,7 +15,7 @@ int main()
     scanf("%d", &day);
     
  
-    for (i =   ;    ;    );
+    for (   ;   ;   );
 
     printf("Day of the year: %d", i);
     

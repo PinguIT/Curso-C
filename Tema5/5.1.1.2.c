@@ -2,20 +2,20 @@
 #include <stdio.h>
 int main()
 {
-    int numero[5];
+    int number[5];
     
     printf("Input value of first number: \n");
-    scanf("%d", &numero[0]);
+    scanf("%d", &number[0]);
     printf("Input value of the second number: \n");
-    scanf("%d", &numero[1]);
+    scanf("%d", &number[1]);
     printf("Input value of third number: \n");
-    scanf("%d", &numero[2]);
+    scanf("%d", &number[2]);
     printf("Input value of fourth number: \n");
-    scanf("%d", &numero[3]);
+    scanf("%d", &number[3]);
     printf("Input value of fifth number: \n");
-    scanf("%d", &numero[4]);
+    scanf("%d", &number[4]);
     
-    printf("Los numeros son: %d, %d, %d, %d, %d", numero[4], numero[3], numero[2], numero[1], numero[0]);
+    printf("The numbers are: %d, %d, %d, %d, %d", number[4], number[3], number[2], number[1], number[0]);
     
     return 0;
     

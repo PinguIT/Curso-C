@@ -3,14 +3,14 @@
 #include <stdio.h>
 int main()
 {
-    int dias[12] =
+    int days[12] =
         {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int month;
     
     printf("Pick a month: \n");
     scanf("%d", &month);
     
-    printf("El mes %d tiene %d dias", month, dias[month-1]);
+    printf("Month %d has %d days", month, days[month-1]);
     
 
     return 0;
