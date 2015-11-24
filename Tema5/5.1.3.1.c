@@ -3,5 +3,25 @@
 #include <stdio.h>
 int main()
 {
+    int days[12] =
+        {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    int month;
+    int day;
+    int i;
+    int day_of_year = 0;
     
+    printf("Input a day of the month: \n");
+    scanf("%d", &day);
+    printf("Input a month: \n");
+    scanf("%d", &month);
+    
+    for (i=1; i < month; i++) 
+    {
+        day_of_year += days[i-1];
+    }
+    day_of_year = day_of_year + day;
+ 
+    printf("Days left in year: %d\n", 365-day_of_year);
+    
+    return 0;
 }
