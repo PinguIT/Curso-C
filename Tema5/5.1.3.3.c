@@ -10,7 +10,7 @@ int main()
     for (i=0; i<10; i++)
     {
       printf("Input number: \n");
-      scanf("%d", &  );
+      scanf("%d", &   );
     }
     
     
