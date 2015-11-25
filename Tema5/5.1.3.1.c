@@ -18,6 +18,7 @@ int main()
     for (i=1; i < month; i++) 
     {
         day_of_year += days[i-1];
+        // day_of_year = day_of_year + days[i-1];
     }
     day_of_year = day_of_year + day;
  
