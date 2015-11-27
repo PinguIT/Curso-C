@@ -1,4 +1,5 @@
 //Crear un programa que pida al usuario 10 números, calcule su media y luego muestre los que están por encima de la media
+//Create a program that asks the user for 10 numbers, calculates the average of the numbers and then demonstrates the numbers that are above the average.
 #include <stdio.h>
 int main()
 {
@@ -23,7 +24,8 @@ int main()
     
     printf("Average of all numbers is: %d \n", average);
     
-    printf("%d  ", numbers[i]>average);
+    
+   //missing demonstration of numbers above average
     
     
     return 0;
