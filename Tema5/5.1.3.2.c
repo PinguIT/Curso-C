@@ -5,13 +5,25 @@ int main()
     int numbers[10];
     int i;
     
-    for (i=10; i>0; i--)
+    for (i = 0; i < 10; i++)
     {
       printf("Input number: \n");
-      scanf("%d", &numbers[i]);
+      scanf("%d", &numbers[i] );
     }
-    
-    printf("Numbers in reverse: %d \n", );
+   
+    for (i = 9; i >= 0; i--)
+    {
+      printf("%d  ", numbers[i]);
+    }
+
+   printf("\nAhora con while:\n");
+
+   i = 9;
+   while (i >= 0) {
+      printf("%d  ", numbers[i]);
+      i--;
+   }
+  
     
     return 0;
 }
