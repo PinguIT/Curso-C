@@ -16,14 +16,16 @@ int main()
       printf("%d  ", numbers[i]);
     }
 
-   printf("\nAhora con while:\n");
+/*  with while:
 
    i = 9;
-   while (i >= 0) {
+   while (i >= 0)
+   {
       printf("%d  ", numbers[i]);
       i--;
    }
-  
+   
+*/  
     
     return 0;
 }

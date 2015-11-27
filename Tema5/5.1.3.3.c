@@ -3,8 +3,8 @@
 int main()
 {
     int numbers[10];
-    int average;
     int i;
+    int average = 0;
     int sum = 0;
     
     for (i = 0; i < 10; i++)
@@ -13,9 +13,8 @@ int main()
       scanf("%d", &numbers[i]);
     }
     
-    /*
     
-    for (i=0; i=9; i++)
+    for (i=0; i<=9; i++)
     {
       sum += numbers[i];
     }
@@ -24,8 +23,8 @@ int main()
     
     printf("Average of all numbers is: %d \n", average);
     
-    if (numbers[i] > average)  printf
-    */
+    printf("%d  ", numbers[i]>average);
+    
     
     return 0;
 }
