@@ -3,30 +3,27 @@
 #include <stdio.h>
 int main()
 {
-    int numbers[10];
-    int i;
-    int average = 0;
-    int sum = 0;
+  int numbers[4];
+  int i;
+  int average = 0;
+  int sum = 0;
     
-    for (i = 0; i < 10; i++)
-    {
-      printf("Input number: \n");
-      scanf("%d", &numbers[i]);
-    }
+  for (i = 0; i < 4; i++)
+  {
+   printf("Input number: \n");
+   scanf("%d", &numbers[i]);
+  }
     
+  for (i=0; i<=3; i++)
+  {
+   sum += numbers[i];
+  }
     
-    for (i=0; i<=9; i++)
-    {
-      sum += numbers[i];
-    }
+  average = sum / 4;
     
-    average = sum / 10;
+  printf("Average of all numbers: %d \n", average);
     
-    printf("Average of all numbers is: %d \n", average);
-    
-    
-   //missing demonstration of numbers above average
-    
-    
-    return 0;
+  
+  
+  return 0;
 }
