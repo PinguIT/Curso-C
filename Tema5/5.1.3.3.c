@@ -7,6 +7,7 @@ int main()
   int i;
   int average = 0;
   int sum = 0;
+  int high = 0;
     
   for (i = 0; i < 10; i++)
   {
@@ -22,7 +23,12 @@ int main()
   average = sum / 10;
     
   printf("Average of all numbers: %d \n", average);
+  printf("Numbers above average: ");
   
-  
+  for (i=10; i >= 0; i--)
+  {
+   
+  }
+
   return 0;
 }

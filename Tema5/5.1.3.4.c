@@ -12,6 +12,10 @@ int main()
      scanf("%d", &numbers[i]);
     }
     
+    for (i = 10; i >= 0; i--)
+    {
+     
+    }
     
    
    return 0;
