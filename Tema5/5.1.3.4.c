@@ -5,18 +5,22 @@ int main()
 {
     int numbers[10];
     int i;
+    int ;
     
+    printf("Input numbers: \n");
     for (i = 0; i < 10; i++)
     {
-     printf("Input number: \n");
      scanf("%d", &numbers[i]);
     }
     
-    for (i = 10; i >= 0; i--)
+    for (i = 0; i < 10; i++)
     {
-     
+     if
+     {
+         
+     }
     }
-    
+    printf("Highest number: %d", );
    
-   return 0;
+    return 0;
 }
