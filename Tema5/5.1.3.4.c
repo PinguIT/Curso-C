@@ -15,12 +15,9 @@ int main()
     
     for (i = 0; i < 10; i++)
     {
-     if
-     {
-         
-     }
+     if 
     }
-    printf("Highest number: %d", );
+    printf("Highest number: %d",  );
    
     return 0;
 }
