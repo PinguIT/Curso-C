@@ -5,7 +5,7 @@ int main()
 {
     int numbers[10];
     int i;
-    int ;
+    int high = 0;
     
     printf("Input numbers: \n");
     for (i = 0; i < 10; i++)
@@ -15,9 +15,10 @@ int main()
     
     for (i = 0; i < 10; i++)
     {
-     
+        if(numbers[i]>high)    
+            high=numbers[i];
     }
-    printf("Highest number: %d",  );
+    printf("Highest number: %d", high );
    
     return 0;
 }
