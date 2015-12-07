@@ -9,9 +9,9 @@ int main()
     printf("Input name: \n");
     scanf("%s", name);
     
-    for (i = strlen(name); i >= 0; i--)
+    for (i=strlen(name); i>=0; i--)
     {
-        printf("%s ", );
+        printf("%c", name[i]);
     }
     
     return 0;
