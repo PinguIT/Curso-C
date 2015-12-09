@@ -6,8 +6,6 @@ int main()
 {
     char names[10][80], name_comp[80];
     int i;
-    int found;
-
 
     for (i=0;i<10;i++)
     {
@@ -23,16 +21,12 @@ int main()
         if (strcmp(name_comp, "exit") == 0) 
             break;
             
-        found = 0;
-        for (i=0; i<10; i++)
-        {
-           if (strcmp(name_comp, names[i])==0)  found = 1;
-        } 
+        for (i=0; i<10 && strcmp(name_comp, names[i]) != 0; i++) ;
+
+        if (i == 10)   printf("Name not found\n"); 
+        else   printf("Name found\n");  
         
-        if (found)   printf("Name found\n"); 
-        else   printf("Name not found\n");  
-        
-    } while(1);
+    } while (1);
     
     
     return 0;
