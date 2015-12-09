@@ -6,5 +6,20 @@
 int main()
 {
     char names[100][80];
+    int i;
+    
+    do
+    {
+        printf("Input name:\n");
+        scanf("%s", names[i]);
+        i++;
+    } while (strcmp(names[i], '\n') != 0); //¿?
+    
+    for (i=0; i<99; i++)
+    {
+        if (strcmp(names[i], '\n') == 0)   printf("%s  ", names[i]);  //¿?
+    }
+    
+    return 0;
     
 }
