@@ -1,3 +1,4 @@
+//Crear un programa que pida al usuario dos números enteros cortos y diga si son iguales o, en caso contrario, cuál es el mayor de ellos.
 #include <stdio.h>
 int main()
 {

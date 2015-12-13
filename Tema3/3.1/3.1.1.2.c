@@ -1,3 +1,4 @@
+//Crear un programa que pida al usuario dos números enteros y diga cual es el mayor de ellos.
 #include <stdio.h>
 
 int main()

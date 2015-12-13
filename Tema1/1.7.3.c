@@ -1,3 +1,4 @@
+//El usuario tecleará dos números, y el programa mostrar el resultado de la operación (a+b)*(a-b) y el resultado de la operación a2-b2.
 #include <stdio.h>
 int main()
 {

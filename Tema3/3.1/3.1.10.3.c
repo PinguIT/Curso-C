@@ -1,3 +1,4 @@
+//Repetir los dos programas anteriores, empleando "if" en lugar de "switch".
 #include <stdio.h>
 int main()
 {

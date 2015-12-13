@@ -1,3 +1,4 @@
+//Hacer un programa que calcule el producto de los números 121 y 132, usando variables.
 #include <stdio.h>
 int main()
 {

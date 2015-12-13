@@ -1,3 +1,5 @@
+//Crear un programa que pida al usuario dos números enteros y diga si el primero es múltiplo del segundo (pista: igual que antes,
+//habrá que ver si el resto de la división es cero: a % b == 0).
 #include <stdio.h>
 int main()
 {

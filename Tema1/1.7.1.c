@@ -1,3 +1,4 @@
+//Multiplicar dos números tecleados por usuario
 #include <stdio.h>
 int main()
 {

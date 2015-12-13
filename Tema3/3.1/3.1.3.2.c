@@ -1,3 +1,5 @@
+//Crear un programa que pida al usuario dos números reales. Si el segundo no es cero, mostrará el resultado de dividir entre el primero y el segundo.
+//Por el contrario, si el segundo número es cero, escribirá "Error: No se puede dividir entre cero".
 #include <stdio.h>
 
 int main()

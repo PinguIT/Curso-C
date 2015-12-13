@@ -1,3 +1,4 @@
+//Crear un programa que lea una letra tecleada por el usuario y diga si se trata de un signo de puntuación, una cifra numérica o algún otro carácter.
 #include <stdio.h>
 int main()
 {

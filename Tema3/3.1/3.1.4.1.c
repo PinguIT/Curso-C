@@ -1,3 +1,4 @@
+//Mejorar la solución a los dos ejercicios del apartado anterior, usando "else".
 #include <stdio.h>
 
 int main()

@@ -1,3 +1,4 @@
+//Crear un programa que pida una letra al usuario y diga si se trata de una vocal.
 #include <stdio.h>
 int main()
 {

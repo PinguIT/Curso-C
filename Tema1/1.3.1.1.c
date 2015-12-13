@@ -1,3 +1,4 @@
+//Calcular (a mano y después comprobar desde C) el resultado de estas operaciones:
 #include <stdio.h>
 int main()
 {

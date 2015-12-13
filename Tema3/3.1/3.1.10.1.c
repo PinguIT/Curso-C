@@ -1,3 +1,4 @@
+//Crear un programa que lea una letra tecleada por el usuario y diga si se trata de una vocal, una cifra numérica o una consonante.
 #include<stdio.h>
 int main()
 {
