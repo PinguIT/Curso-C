@@ -2,6 +2,7 @@
 //El programa deberá mostrar el resultado de dividir el primer número entre el segundo, utilizando tres cifras decimales.
 
 #include<stdio.h>
+
 int main()
 {
     float numero;
@@ -15,7 +16,7 @@ int main()
     
     resultado = numero/numero2;
     
-    printf("%8.0f entre %8.0f es %.3f", numero, numero2, resultado);
+    printf("El resultado: %-8.3f", resultado);
     
     return 0;
     
