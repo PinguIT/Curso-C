@@ -1,28 +1,22 @@
 //Crear una función que calcule cual es el menor de dos números enteros. El resultado será otro número entero.
 #include <stdio.h>
 
-int lowest(int number1, int number2)
+int lower(int x, int y)
 {
-    int lowest;
-    
-    
-    if (number1<number2)  lowest=number1;
-    if (number2<number1)  lowest=number2;
-    
-    
-    
-    return lowest;
+    if (x<=y)  return x;
+    if (y<=x)  return y;
 }
+
 int main()
 {
-    int number1, number2;
+    int i, j;
     
     printf("Input number:\n");
-    scanf("%d", &number1);
+    scanf("%d", &i);
     printf("Input number:\n");
-    scanf("%d", &number2);
+    scanf("%d", &j);
     
-    printf("%d",lowest(number1,number2));
+    printf("Lowest: %d", lower(i, j));
     
     return 0;
 }
