@@ -6,14 +6,14 @@ void draw(int x, int y)
 {
     int i, j;
     
-   for(i=0; i<y; i++)
-   {
-       for(j=0; j<x; j++)
-       {
-           printf("#");
-       }
-    printf("\n");
-   }
+    for(i=0; i<y; i++)
+    {
+        for(j=0; j<x; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
+    }
 }
 
 int main()

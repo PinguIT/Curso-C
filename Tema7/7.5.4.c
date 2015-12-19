@@ -11,11 +11,11 @@ void permsupr(int x)
 int main()
 {
     int side;
-    
+
     printf("Input size:\n");
     scanf("%d", &side);
-    
+
     permsupr(side);
-    
+
     return 0;
 }

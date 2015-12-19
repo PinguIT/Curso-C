@@ -9,7 +9,7 @@ void writecentre(char txt[80])
     int i;
     int word = strlen(txt)/2;
     int amount = 40 - word;
-    
+    s
     for(i=0; i<amount; i++)
     {
         printf(" ");
@@ -20,6 +20,11 @@ void writecentre(char txt[80])
 int main()
 {
     char text[80];
+    int i;
+    
+    for (i = 0; i < 80; i++) {
+        putchar('-');
+    }
     
     printf("Input text:\n");
     scanf("%s", text);
