@@ -16,9 +16,8 @@ int main()
         resultado = numero1 + numero2;
         printf("Resultado: %d\n", resultado);
     }
-    while ((numero1!=0) || (numero2!=0));
+    while ((numero1>0) && (numero2>0));
     
     return 0;
-    
     
 }
