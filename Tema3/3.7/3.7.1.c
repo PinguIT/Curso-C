@@ -18,6 +18,5 @@ int main()
         
     if (numero2==67)  printf("Acertado!");
         
-      
     return 0;
 }
