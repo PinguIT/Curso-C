@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m "..."
+git pull
+git push origin master
+
+git init
+git add -u
+git commit -m"..."
+git pull
+git push origin master
