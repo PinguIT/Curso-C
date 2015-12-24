@@ -26,34 +26,122 @@ int main()
     if (((-b+z)%i!=0) && ((-b-z)%i==0)) 
     {
         if (z/1<0)  printf("No solution. Square root is negative number.\n");
-        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0))
+        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0) && (z!=1))
         {
             printf("No solution. Square root is not exact.\n");
         }
-        else  printf("First solution = %d/%d  \nSecond solution = %d\n", -b+z, i, sol2);
+        else
+        {
+            do
+            {
+                if (((-b+z)%2==0) && (i%2==0))
+                {
+                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/2, i/2, sol2);
+                }
+                if (((-b+z)%3==0) && (i%3==0))
+                {
+                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/3, i/3, sol2);
+                }
+                if (((-b+z)%5==0) && (i%5==0))
+                {
+                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/5, i/5, sol2);
+                }
+                if (((-b+z)%7==0) && (i%7==0))
+                {
+                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/7, i/7, sol2);
+                }
+            }
+            while (((-b+z)/2>1) || (i/2>1) && ((-b+z)/3>1) || (i/3>1) && ((-b+z)/5>1) || (i/5>1) && ((-b+z)/7>1) || (i/7>1));
+        }
+        
     }
     if (((-b+z)%i==0) && ((-b-z)%i!=0))  
     {
         if (z/1<0)  printf("No solution. Square root is negative number.\n");
-        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0))
+        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0) && (z!=1))
         {
             printf("No solution. Square root is not exact.\n");
         }
-        else  printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, -b-z, i);
+        else
+        {
+            do
+            {
+                if (((-b-z)%2==0) && (i%2==0))
+                {
+                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/2, i/2);
+                }
+                if (((-b-z)%3==0) && (i%3==0))
+                {
+                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/3, i/3);
+                }
+                if (((-b-z)%5==0) && (i%5==0))
+                {
+                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/5, i/5);
+                }
+                if (((-b-z)%7==0) && (i%7==0))
+                {
+                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/7, i/7);
+                }
+            }
+            while (((-b-z)/2>1) || (i/2>1) && ((-b-z)/3>1) || (i/3>1) && ((-b-z)/5>1) || (i/5>1) && ((-b-z)/7>1) || (i/7>1));
+        }
     }
     if (((-b+z)%i!=0) && ((-b-z)%i!=0))
     {
         if (z/1<0)  printf("No solution. Square root is negative number.\n");
-        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0))
+        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0) && (z!=1))
         {
             printf("No solution. Square root is not exact.\n");
         }
-        else  printf("First solution = %d/%d  \nSecond solution = %d/%d\n", -b+z, i, -b-z, i);
+        else
+        {
+            do
+            {
+                if (((-b+z)%2==0) && (i%2==0))
+                {
+                    printf("First solution = %d/%d  \n", (-b+z)/2, i/2);
+                }
+                if (((-b+z)%3==0) && (i%3==0))
+                {
+                    printf("First solution = %d/%d  \n", (-b+z)/3, i/3);
+                }
+                if (((-b+z)%5==0) && (i%5==0))
+                {
+                    printf("First solution = %d/%d  \n", (-b+z)/5, i/5);
+                }
+                if (((-b+z)%7==0) && (i%7==0))
+                {
+                    printf("First solution = %d/%d  \n", (-b+z)/7, i/7);
+                }
+            }
+            while (((-b+z)/2>1) || (i/2>1) && ((-b+z)/3>1) || (i/3>1) && ((-b+z)/5>1) || (i/5>1) && ((-b+z)/7>1) || (i/7>1));
+            
+            do
+            {
+                if (((-b-z)%2==0) && (i%2==0))
+                {
+                    printf("Second solution = %d/%d\n", (-b-z)/2, i/2);
+                }
+                if (((-b-z)%3==0) && (i%2==0))
+                {
+                    printf("Second solution = %d/%d\n", (-b-z)/3, i/3);
+                }
+                if (((-b-z)%5==0) && (i%5==0))
+                {
+                    printf("Second solution = %d/%d\n", (-b-z)/5, i/5);
+                }
+                if (((-b-z)%7==0) && (i%7==0))
+                {
+                    printf("Second solution = %d/%d\n", (-b-z)/7, i/7);
+                }
+            }
+            while (((-b-z)/2>1) || (i/2>1) && ((-b-z)/3>1) || (i/3>1) && ((-b-z)/5>1) || (i/5>1) && ((-b-z)/7>1) || (i/7>1));
+        }
     }
     if (((-b+z)%i==0) && ((-b-z)%i==0)) 
     {
         if (z/1<0)  printf("No solution. Square root is negative number.\n");
-        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0))
+        else if ((z%2!=0) && (z%3!=0) && (z%5!=0) && (z%7!=0) && (z!=1))
         {
             printf("No solution. Square root is not exact.\n");
         }
