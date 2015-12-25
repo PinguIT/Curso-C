@@ -2,9 +2,12 @@
 #include <stdio.h>
 int main()
 {
-    int numero;
-    int numero2;
+    int i;
     
+    for(i=0; i<50; i++)
+    {
+        if(i%3==0)  printf("%d ", i);
+    }
 
        
     return 0;
