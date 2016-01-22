@@ -2,9 +2,22 @@
 
 #include <stdio.h>
 
-func(int num)
+int func(int num)
 {
+    int i=0, count=0, n=1, aux;
+    aux=num;
+    do
+    {
+        aux=aux/10;
+        count++;
+    } while(aux>0);
     
+    for(i=0;i<count;i++)
+    {
+        
+    }
+    
+    return n;
 }
 
 int main()

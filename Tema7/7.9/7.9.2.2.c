@@ -1,5 +1,7 @@
 //Crear un programa que resuelva ecuaciones de segundo grado, del tipo ax2 + bx + c = 0 El usuario deberá introducir los valores de a, b y c.
 // cd Tema7/   gcc -o 7.9.2.2 7.9.2.2.c -lm     ./7.9.2.2
+//error with a=2, b=0, c=-6      
+
 
 #include <stdio.h>
 #include <math.h>
@@ -16,7 +18,7 @@ int main()
     scanf("%d", &c);
     
     x = pow(b, 2);
-    j = 4*a*c;
+    j = (4*a*(c));
     y = x-j;
     i = 2*a;
     z = sqrt(y);
@@ -32,26 +34,7 @@ int main()
         }
         else
         {
-            do
-            {
-                if (((-b+z)%2==0) && (i%2==0))
-                {
-                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/2, i/2, sol2);
-                }
-                if (((-b+z)%3==0) && (i%3==0))
-                {
-                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/3, i/3, sol2);
-                }
-                if (((-b+z)%5==0) && (i%5==0))
-                {
-                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/5, i/5, sol2);
-                }
-                if (((-b+z)%7==0) && (i%7==0))
-                {
-                    printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z)/7, i/7, sol2);
-                }
-            }
-            while (((-b+z)/2>1) || (i/2>1) && ((-b+z)/3>1) || (i/3>1) && ((-b+z)/5>1) || (i/5>1) && ((-b+z)/7>1) || (i/7>1));
+            printf("First solution = %d/%d  \nSecond solution = %d\n", (-b+z), i, sol2);
         }
         
     }
@@ -64,26 +47,7 @@ int main()
         }
         else
         {
-            do
-            {
-                if (((-b-z)%2==0) && (i%2==0))
-                {
-                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/2, i/2);
-                }
-                if (((-b-z)%3==0) && (i%3==0))
-                {
-                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/3, i/3);
-                }
-                if (((-b-z)%5==0) && (i%5==0))
-                {
-                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/5, i/5);
-                }
-                if (((-b-z)%7==0) && (i%7==0))
-                {
-                    printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z)/7, i/7);
-                }
-            }
-            while (((-b-z)/2>1) || (i/2>1) && ((-b-z)/3>1) || (i/3>1) && ((-b-z)/5>1) || (i/5>1) && ((-b-z)/7>1) || (i/7>1));
+            printf("First solution = %d  \nSecond solution = %d/%d\n", sol1, (-b-z), i);
         }
     }
     if (((-b+z)%i!=0) && ((-b-z)%i!=0))
@@ -95,47 +59,8 @@ int main()
         }
         else
         {
-            do
-            {
-                if (((-b+z)%2==0) && (i%2==0))
-                {
-                    printf("First solution = %d/%d  \n", (-b+z)/2, i/2);
-                }
-                if (((-b+z)%3==0) && (i%3==0))
-                {
-                    printf("First solution = %d/%d  \n", (-b+z)/3, i/3);
-                }
-                if (((-b+z)%5==0) && (i%5==0))
-                {
-                    printf("First solution = %d/%d  \n", (-b+z)/5, i/5);
-                }
-                if (((-b+z)%7==0) && (i%7==0))
-                {
-                    printf("First solution = %d/%d  \n", (-b+z)/7, i/7);
-                }
-            }
-            while (((-b+z)/2>1) || (i/2>1) && ((-b+z)/3>1) || (i/3>1) && ((-b+z)/5>1) || (i/5>1) && ((-b+z)/7>1) || (i/7>1));
-            
-            do
-            {
-                if (((-b-z)%2==0) && (i%2==0))
-                {
-                    printf("Second solution = %d/%d\n", (-b-z)/2, i/2);
-                }
-                if (((-b-z)%3==0) && (i%2==0))
-                {
-                    printf("Second solution = %d/%d\n", (-b-z)/3, i/3);
-                }
-                if (((-b-z)%5==0) && (i%5==0))
-                {
-                    printf("Second solution = %d/%d\n", (-b-z)/5, i/5);
-                }
-                if (((-b-z)%7==0) && (i%7==0))
-                {
-                    printf("Second solution = %d/%d\n", (-b-z)/7, i/7);
-                }
-            }
-            while (((-b-z)/2>1) || (i/2>1) && ((-b-z)/3>1) || (i/3>1) && ((-b-z)/5>1) || (i/5>1) && ((-b-z)/7>1) || (i/7>1));
+            printf("First solution = %d/%d  \n", (-b+z), i);
+            printf("Second solution = %d/%d\n", (-b-z), i);
         }
     }
     if (((-b+z)%i==0) && ((-b-z)%i==0)) 
