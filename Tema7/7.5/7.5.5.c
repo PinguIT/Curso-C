@@ -9,7 +9,7 @@ void writecentre(char txt[80])
     int i;
     int word = strlen(txt)/2;
     int amount = 40 - word;
-    s
+    
     for(i=0; i<amount; i++)
     {
         printf(" ");
