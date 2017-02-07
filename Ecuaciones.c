@@ -23,7 +23,7 @@ int main()
     
     if ( ((-b+sqrot)%(2*a)==0) && ((-b-sqrot)%(2*a)==0) )
     {
-        if(sqrot/1<0)  printf()
+        //if(sqrot/1<0)  printf()
         printf("     -(%d)+√%d-4*%d*%d\nx1 = ---------------- = %d\n          2*%d\n", b, expo, a, c, sol_pos, a);
         printf("     -(%d)-√%d-4*%d*%d\nx2 = ---------------- = %d\n          2*%d\n", b, expo, a, c, sol_neg, a);
     }
